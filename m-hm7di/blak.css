@@ -1,0 +1,711 @@
+/* القسم الأسود */
+.black-section {
+    background-color: #000; /* خلفية سوداء */
+    color: #fff; /* نص أبيض */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.black-section h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffcc00; /* لون ذهبي */
+}
+
+.black-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.card h2 {
+    color: #ffcc00; /* لون ذهبي */
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+/* إعدادات عامة */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* رأس الصفحة */
+.header {
+    background-color: #014AAC;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-and-lang {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background-color: #fff;
+    color: #014AAC;
+    border-radius: 5px;
+}
+
+/* أيقونات السوشال ميديا */
+.social-icons a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+/* المحتوى */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* التذييل */
+.footer {
+    background-color: #014AAC;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.social-footer a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.social-footer a:hover {
+    color: #ffcc00;
+}
+/* تنسيق الأيقونات */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* المسافة بين الأيقونات */
+    margin: 10px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: inherit; /* نفس لون النص المحيط */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* مسافة بين الأيقونة والصورة */
+}
+
+/* حجم الأيقونات */
+.social-icons i {
+    font-size: 16px; /* حجم صغير للأيقونة */
+}
+
+/* حجم الصور */
+.social-icons .icon-symbol {
+    width: 20px; /* تصغير الصور */
+    height: auto; /* الحفاظ على النسبة */
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar a.active {
+    background-color: white;
+    color: #014AAC;
+    font-weight: bold;
+}
+/* التذييل */
+.footer {
+    background-color: #014AAC;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.social-footer a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.social-footer a:hover {
+    color: #ffcc00;
+}
+
+/* تنسيق الأيقونات في الشريط العلوي */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons i {
+    font-size: 25px;
+}
+
+.social-icons .icon-symbol {
+    width: 20px;
+    height: auto;
+}
+/* القسم الأبيض */
+.white-section {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.white-section h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #014AAC;
+}
+
+.white-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* شبكة الكورسات */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة */
+    gap: 20px;
+}
+
+/* تصميم الكروت */
+.course-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #014AAC;
+}
+
+/* تصميم الأزرار */
+.course-card .btn {
+    display: inline-block;
+    background-color: #014AAC;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.course-card .btn:hover {
+    background-color: #003d7a;
+}
+
+.course-card .btn-order {
+    background-color: #ff6600;
+}
+
+.course-card .btn-order:hover {
+    background-color: #cc5200;
+}
+/* تنسيق أيقونات السوشال ميديا */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff; /* لون الأيقونات */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffcc00; /* لون عند التمرير */
+}
+/* تنسيق أيقونات السوشال ميديا */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff; /* لون الأيقونات */
+    font-size: 30px; /* حجم الأيقونات */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffcc00; /* لون عند التمرير */
+}
+
+/* تنسيق أيقونات السوشال ميديا في الترويسة */
+.header .social-icons {
+    display: flex;
+    justify-content: flex-end; /* وضع الأيقونات في الجهة اليمنى */
+    gap: 10px; /* المسافة بين الأيقونات */
+    margin-top: 10px; /* المسافة العلوية */
+}
+
+.header .social-icons a {
+    text-decoration: none;
+    color: #fff; /* لون الأيقونات */
+    font-size: 30px; /* حجم الأيقونات */
+    transition: color 0.3s ease;
+}
+
+.header .social-icons a:hover {
+    color: #ffcc00; /* لون عند التمرير */
+}
+
+/* تنسيق أيقونات السوشال ميديا في التذييل */
+.footer .social-icons {
+    display: flex;
+    justify-content: center; /* وضع الأيقونات في المنتصف */
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer .social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px; /* حجم الأيقونات */
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #ffcc00; /* تغيير اللون عند التمرير */
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #014AAC;
+    color: white;
+}
+
+.social-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-footer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.social-footer .social-icons a {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-footer .social-icons a:hover {
+    color: #ffcc00;
+}
+
+.social-footer .copyright-text {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #ffcc00;
+}
+
+.copyright {
+    background-color: #003d7a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright p {
+    margin: 5px 0;
+}
+/* تنسيق الأزرار */
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(1, 74, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+}
+
+.btn:hover {
+    background-color: hsl(210, 100%, 24%);
+}
+
+.feature-cards, .testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-card, .testimonial-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #014AAC;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.features, .testimonials {
+    padding: 50px 0;
+}
+/* تنسيق الصور المتحركة */
+.hero-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.image-container {
+    width: 30%;
+    opacity: 0;
+    animation: moveImage 1s ease forwards; /* التأثير ووقت التحريك */
+}
+
+/* تأثير التحريك */
+@keyframes moveImage {
+    0% {
+        transform: translateY(50px); /* نبدأ الصورة أسفل */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* الصورة تتحرك إلى مكانها الطبيعي */
+        opacity: 1;
+    }
+}
+
+/* تأخير كل صورة */
+.image-container:nth-child(1) {
+    animation-delay: 1.5s; /* الصورة الأولى تظهر فورًا */
+}
+
+.image-container:nth-child(2) {
+    animation-delay: 1s; /* الصورة الثانية تظهر بعد ثانية */
+}
+
+.image-container:nth-child(3) {
+    animation-delay: 0.5s; /* الصورة الثالثة تظهر بعد ثانيتين */
+}
+
+/* إضافة تأثير على الصورة */
+.moving-image {
+    width: 100%;
+    border-radius: 10px;
+}
+/* إزالة الخط تحت الرابط */
+a {
+    text-decoration: none;
+}
+.contact-form-section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #003d7a;
+}
+/* تنسيق عام للمحتوى */
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* تنسيق القسم الرئيسي */
+section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* تنسيق كل خدمة */
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:last-child {
+    border-bottom: none;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق أيقونات الخدمات */
+.service .icon img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.service:hover .icon img {
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* تنسيق النصوص */
+.service .text h3 {
+    font-size: 1.5rem;
+    color: #014aac; /* لون رئيسي */
+    margin-bottom: 10px;
+}
+
+.service .text p {
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* صورة المحتوى بين الترويسة والتذييل */
+.moving-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* الترويسة */
+.header {
+    background-color: #014aac;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* النموذج */
+#training-form {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#training-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#training-form label {
+    font-weight: bold;
+}
+
+#training-form input,
+#training-form input, #training-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    direction: rtl; /* اتجاه النص من اليمين إلى اليسار */
+    text-align: right; /* محاذاة النص إلى اليمين */
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    direction: rtl; /* اتجاه النص من اليمين إلى اليسار */
+    text-align: right; /* محاذاة النص إلى اليمين */
+}
+
+
+#training-form button {
+    padding: 10px;
+    background-color: #014AAC;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#training-form button:hover {
+    background-color: #e69500;
+}
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#content {
+    display: none; /* إخفاء المحتوى عند تحميل الصفحة */
+}
